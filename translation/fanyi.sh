@@ -1,4 +1,4 @@
 #!/bin/bash
-echo $1 > ~/.fanyi.txt
-python fanyi.py
+echo $1 > /usr/local/src/fanyi/.fanyi.txt
+python /usr/local/src/fanyi/fanyi.py
 

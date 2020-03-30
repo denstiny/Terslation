@@ -8,7 +8,7 @@ def main():
     Str = ""
     Strend = ""
     resStr = '\"tgt\"\:\"(.*?)\"\}'
-    with open("/home/chroot/.fanyi.txt","r") as f:
+    with open("/usr/local/src/fanyi/.fanyi.txt","r") as f:
         for line in f:
             Str += line
     data = {
