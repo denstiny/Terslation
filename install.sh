@@ -7,8 +7,4 @@ sudo cp translation/fanyi.py /usr/local/src/fanyi/fanyi.py
 echo "Before the installation is complete, run, please make sure that wh
 ether have dependence"
 echo "There is no problem, please press enter to continue..."
-read a
-~
-~
-~
-~
+read str
