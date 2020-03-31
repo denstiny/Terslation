@@ -10,4 +10,5 @@ Do you need these dependencies:
 python3  
 requests
 
-```终端翻译
+```  
+终端翻译
