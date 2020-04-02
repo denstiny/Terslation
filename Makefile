@@ -2,11 +2,11 @@
 # git clone https://github.com/denstiny/Terslation.git
 
 install:
-	cp translation/fanyi.sh /bin/terlat
+	cp -f translation/fanyi.sh /bin/terlat
 	chmod +x /bin/terlat
 	mkdir /usr/local/src/fanyi
 	chmod 777 /usr/local/src/fanyi
-	cp translation/fanyi.py /usr/local/src/fanyi/fanyi.py
+	cp -f translation/fanyi.py /usr/local/src/fanyi/fanyi.py
 	@echo "Install successful."
 
 uninstall:
