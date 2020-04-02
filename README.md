@@ -3,7 +3,9 @@
 If you want to install the program follow
 
 ```
+
 git clone https://github.com/denstiny/translation.git
+
 ```
 
 ## Installation
@@ -11,13 +13,17 @@ git clone https://github.com/denstiny/translation.git
 You can install it by using that command:
 
 ```shell
+
 sudo make install
+
 ```
 
 And you can run:
 
 ```shell
+
 sudo make uninstall
+
 ```
 
 To remove it.
@@ -25,8 +31,11 @@ To remove it.
 Do you need these dependencies:
 
 ```
+
 python3
+
 requests
+
 ```
 
 终端翻译
