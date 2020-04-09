@@ -26,9 +26,18 @@ sudo make uninstall
 
 ```
 
+To use it, you should do like this:
+```shell
+terlat "Hello,World."
+
+# This is the output:
+你好，世界。
+```
+<+++>
+
 To remove it.
 
-Do you need these dependencies:
+You need need these dependencies:
 
 ```
 
