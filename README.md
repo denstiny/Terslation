@@ -33,8 +33,6 @@ terlat "Hello,World."
 # This is the output:
 你好，世界。
 ```
-<+++>
-
 To remove it.
 
 You need need these dependencies:
