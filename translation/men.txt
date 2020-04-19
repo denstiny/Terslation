@@ -1,0 +1,7 @@
+a.out
+Dowm.txt
+fanyi.c
+fanyi.py
+fanyi.sh
+log.txt
+men.txt

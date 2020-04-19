@@ -3,7 +3,7 @@
 import requests
 import re
 def main():
-
+    #翻译用户标准输入
     URL= "http://fanyi.youdao.com/translate?smartresult=dict&smartresult=rule"
     Str = ""
     Strend = ""
@@ -13,7 +13,7 @@ def main():
             Str += line
     data = {
         "i":Str,
-        "from":"AUTO",    
+        "from":"AUTO",
         "to":"AUTO",
         "doctype":"json"
     }
@@ -23,4 +23,5 @@ def main():
     for str in StrJson:
         Strend += str
     print(Strend)
+    pass
 main()
