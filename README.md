@@ -58,3 +58,7 @@ Terminal translator
 ## Other
 
 If you're a vimmer,you can use [Terslation.vim](https://github.com/SpringHan/Terslation.vim).
+
+## LICENSE
+
+MIT
