@@ -2,7 +2,7 @@
 
 ## ScreenShot
 
-[The photo failed](./demo.png)
+![The photo failed](./demo.png)
 
 If you want to install the program follow
 
