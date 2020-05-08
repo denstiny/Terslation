@@ -1,5 +1,9 @@
 # My translation program
 
+## ScreenShot
+
+[The photo failed](./demo.png)
+
 If you want to install the program follow
 
 ```
