@@ -4,7 +4,7 @@
 install:
 	cp -f translation/fanyi.sh /bin/terlat
 	chmod +x /bin/terlat
-	mkdir /usr/local/src/fanyi
+	mkdir -p /usr/local/src/fanyi
 	chmod 777 /usr/local/src/fanyi
 	cp -f translation/fanyi.py /usr/local/src/fanyi/fanyi.py
 	@echo "Install successful."
