@@ -2,7 +2,7 @@
 
 
 ## Update the uncommon its record function
-![Rarely used word function](./Imager/list.png)
+![Rarely used word function](./Imager/ter.png)
 ![list](./Imager/list6.png)  
 这次更新维护了之前的代码问题
 之前使用
