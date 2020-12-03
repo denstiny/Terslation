@@ -14,7 +14,9 @@ def main():
     resStr = '\"tgt\"\:\"(.*?)\"\}'
     Strend = ""
     #获取标准缓冲区
-    Str = " ".join(sys.argv)[10:]
+
+    Str = " ".join(sys.argv)[len(sys.argv[0]) + 1:]
+    print(Str)
     if len(sys.argv) >= 2:
         if len(re.findall(".*? -l$", " ".join(sys.argv))) == 1:
             os.system("tac ~/.terlist/.terlist | less")
