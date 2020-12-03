@@ -11,8 +11,8 @@
 ### 添加翻译生僻字功能，生僻字将存在你的$HOME/.terlist/.terlist文件下
 
 如果你想要查看生僻字 你可以 `python fanyim.py -l` 建议将`python fanyim.py` 加入到`bashrc`
-`fanyim.py` 拥有`fanyi.py` 的所有功能但是`fanyi.py`更加简洁
-另外当你不想使用`make install`而直接使用 `python fanyim.py`你需要自己创建.terlist/.terlist文件
+`fanyim.py` 拥有`fanyi.py` 的所有功能但是`fanyi.py`更加简洁  
+另外当你不想使用`make install`而直接使用 `python fanyim.py`你需要自己创建.terlist/.terlist文件  
 ```shell
 echo "alias ters='python ./translation/fanyim.py'" >> bashrc
 -- ters world
