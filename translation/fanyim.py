@@ -39,7 +39,7 @@ def Terlist(a, b):
         if len(re.findall(a, fc)) < 1:
             with open(path + ".terlist", "a+") as f:
                 f.write(a + " " + b + '\n')
-                print(a + " " + b + " 加入生僻字")
+                print("加入生僻字>>  " + a + ":" + b)
 
 
 main()
