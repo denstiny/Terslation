@@ -28,7 +28,7 @@ def main():
     for st in StrJson:
         Strend += st
     print("InputStr = " + Str + "\nTerlat   = " + Strend)
-    if (len(sys.argv)) == 2:
+    if (len(sys.argv)) == 2 and ord(list(Str)[0]) < 1000:
         if ord(list(Str)[0]) > 1000 or ord(list(Strend)[0]) > 1000:
             Terlist(Str, Strend)
 
