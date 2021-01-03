@@ -17,7 +17,7 @@ def main():
 
     Str = " ".join(sys.argv)[len(sys.argv[0]) + 1:]
     if len(sys.argv) >= 2:
-        if len(re.findall(".*? -l$", " ".join(sys.argv))) == 1:
+        if len(re.findall(".*? -l$", " ".join(sys.argv), re.S)) == 1:
             os.system("tac ~/.terlist/.terlist | less")
             return
 
