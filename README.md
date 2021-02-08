@@ -8,7 +8,11 @@
 之前使用
 `terlat hello world` 将无法翻译`hello`后面的`world` 本次更新已经解决
 
-### 添加翻译生僻字功能，生僻字将存在你的$HOME/.terlist/.terlist文件下
+### 更新日志
+- 2021-02-08 提交  
+添加自动复制翻译结果
+- 2020-12-04 提交  
+添加翻译生僻字功能，生僻字将存在你的$HOME/.terlist/.terlist文件下
 
 如果你想要查看生僻字 你可以 `python fanyim.py -l` 建议将`python fanyim.py` 加入到`bashrc`
 `fanyim.py` 拥有`fanyi.py` 的所有功能但是`fanyi.py`更加简洁  

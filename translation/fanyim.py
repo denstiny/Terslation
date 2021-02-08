@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 import requests
+import pyperclip
 import re
 import os
 import sys
@@ -28,6 +29,8 @@ def main():
     for st in StrJson:
         Strend += st
     print("InputStr = " + Str + "\nTerlat   = " + Strend)
+    str = "echo \"" + Strend + "\" | xclip -selection clipboard"
+    os.system(str)
     if (len(sys.argv)) == 2 and ord(list(Str)[0]) < 1000:
         if ord(list(Str)[0]) > 1000 or ord(list(Strend)[0]) > 1000:
             Terlist(Str, Strend)
@@ -40,6 +43,7 @@ def Terlist(a, b):
             with open(path + ".terlist", "a+") as f:
                 f.write(a + " " + b + '\n')
                 print("加入生僻字>>  " + a + ":" + b)
+                
 
 
 main()
