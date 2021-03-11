@@ -15,7 +15,6 @@ def main():
             Str += line
     data = {"i": Str, "from": "AUTO", "to": "AUTO", "doctype": "json"}
     res = requests.post(url=URL, data=data)
-    print(res)
     res = res.content.decode("utf-8")
     StrJson = re.findall(resStr, res, re.S)
     for str in StrJson:
