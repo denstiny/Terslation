@@ -37,10 +37,14 @@ def main():
 
 
 def Terlist(a, b):
-    with open(path + ".terlist") as f:
+    if not os.path.exists(path):
+        os.mkdir(path)
+        f = open(path + "terlist","w")
+        f.close()
+    with open(path + "terlist") as f:
         fc = f.read()
         if len(re.findall(a, fc)) < 1:
-            with open(path + ".terlist", "a+") as f:
+            with open(path + "terlist", "a+") as f:
                 f.write(a + " " + b + '\n')
                 print("加入生僻字>>  " + a + ":" + b)
                 
