@@ -42,7 +42,10 @@ def main():
     for st in StrJson:
         Strend += st
     print("FROM = " + Str + "\nTO   = " + Strend)
-    str = "echo \"" + Strend + "\" | xclip -selection clipboard"
+    if os.getenv('XDG_SESSION_TYPE') == "wayland":
+        str = "echo -n \"" + Strend + "\" | wl-copy"
+    else:
+        str = "echo -n \"" + Strend + "\" | xclip -selection clipboard"
     os.system(str)
     if (len(sys.argv)) == 2 and ord(list(Str)[0]) < 1000:
         if ord(list(Str)[0]) > 1000 or ord(list(Strend)[0]) > 1000:
